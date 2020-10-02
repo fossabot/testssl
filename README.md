@@ -1,4 +1,6 @@
 # testssl
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvalicm%2Ftestssl.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvalicm%2Ftestssl?ref=badge_shield)
+
 
 testssl generate self signed certificates for local development purposes.
 
@@ -25,3 +27,7 @@ or
 - Ubuntu - as root CA on Ubuntu (you need to convert PEM to CRT).
 `openssl x509 -in rootCA.pem -inform PEM -out rootCA.crt`
   
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvalicm%2Ftestssl.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvalicm%2Ftestssl?ref=badge_large)
